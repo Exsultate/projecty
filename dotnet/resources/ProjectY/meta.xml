@@ -1,0 +1,5 @@
+<meta>
+    <info name="ProjectY" description="RPG base developed by Floatas" />
+
+    <script src="ProjectYServer\bin\Debug\netcoreapp3.1\ProjectYServer.dll" />
+</meta>

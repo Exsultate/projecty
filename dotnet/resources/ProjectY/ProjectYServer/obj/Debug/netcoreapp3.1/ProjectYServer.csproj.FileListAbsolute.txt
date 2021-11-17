@@ -1,0 +1,28 @@
+C:\Users\Dziugas\Desktop\New folder (2)\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\ProjectYServer.deps.json
+C:\Users\Dziugas\Desktop\New folder (2)\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\ProjectYServer.dll
+C:\Users\Dziugas\Desktop\New folder (2)\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\ProjectYServer.pdb
+C:\Users\Dziugas\Desktop\New folder (2)\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\Dziugas\Desktop\New folder (2)\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Users\Dziugas\Desktop\New folder (2)\dotnet\resources\ProjectY\ProjectYServer\obj\Debug\netcoreapp3.1\ProjectYServer.csprojAssemblyReference.cache
+C:\Users\Dziugas\Desktop\New folder (2)\dotnet\resources\ProjectY\ProjectYServer\obj\Debug\netcoreapp3.1\ProjectYServer.AssemblyInfoInputs.cache
+C:\Users\Dziugas\Desktop\New folder (2)\dotnet\resources\ProjectY\ProjectYServer\obj\Debug\netcoreapp3.1\ProjectYServer.AssemblyInfo.cs
+C:\Users\Dziugas\Desktop\New folder (2)\dotnet\resources\ProjectY\ProjectYServer\obj\Debug\netcoreapp3.1\ProjectYServer.csproj.CoreCompileInputs.cache
+C:\Users\Dziugas\Desktop\New folder (2)\dotnet\resources\ProjectY\ProjectYServer\obj\Debug\netcoreapp3.1\ProjectYServer.csproj.CopyComplete
+C:\Users\Dziugas\Desktop\New folder (2)\dotnet\resources\ProjectY\ProjectYServer\obj\Debug\netcoreapp3.1\ProjectYServer.dll
+C:\Users\Dziugas\Desktop\New folder (2)\dotnet\resources\ProjectY\ProjectYServer\obj\Debug\netcoreapp3.1\ProjectYServer.pdb
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\ProjectYServer.deps.json
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\ProjectYServer.dll
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\ProjectYServer.pdb
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\Bootstrapper.xml
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\obj\Debug\netcoreapp3.1\ProjectYServer.csprojAssemblyReference.cache
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\obj\Debug\netcoreapp3.1\ProjectYServer.AssemblyInfoInputs.cache
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\obj\Debug\netcoreapp3.1\ProjectYServer.AssemblyInfo.cs
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\obj\Debug\netcoreapp3.1\ProjectYServer.csproj.CoreCompileInputs.cache
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\obj\Debug\netcoreapp3.1\ProjectYServer.csproj.CopyComplete
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\obj\Debug\netcoreapp3.1\ProjectYServer.dll
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\obj\Debug\netcoreapp3.1\ProjectYServer.pdb
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\DnsClient.xml
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\MongoDB.Bson.xml
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\MongoDB.Driver.xml
+C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.xml

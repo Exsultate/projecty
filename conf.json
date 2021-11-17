@@ -1,0 +1,11 @@
+{
+	"maxplayers" : 1,
+	"password": 1235,
+	"name" : "RAGE:MP Unofficial server", 
+	"gamemode" : "freeroam", 
+	"stream-distance" : 500.0,
+	"announce" : false,
+	"csharp" : "enabled",
+	"port": 22005,
+	"allow-cef-debugging": true
+}

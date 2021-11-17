@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ProjectYServer": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\Dziugas\\Desktop\\ProjectY\\ragemp-server.exe",
+      "workingDirectory": "C:\\Users\\Dziugas\\Desktop\\ProjectY"
+    }
+  }
+}

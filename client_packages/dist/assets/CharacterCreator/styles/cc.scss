@@ -1,0 +1,630 @@
+$base-color: #000000;
+$secondary-color: #ffa600;
+$secondary-darker-color: #e77000;
+
+.CharacterCreator {
+  font-family: "MainFont";
+  font-size: 13px;
+  font-style: normal;
+  line-height: 1.5;
+  color: $secondary-darker-color;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.makeupColors ul li{
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  transition: all 0.4s ease;
+  margin: 1px;
+  border: 2px solid transparent
+}
+
+.makeupColors ul li:hover {
+  box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+  border-color: white;
+}
+
+.creator {
+  position: relative;
+  left: 0;
+  top: 10%;
+  bottom: 10%;
+  width: 500px;
+  height: 80%;
+  background: rgba($base-color, $alpha: 0.75);
+  box-shadow: 0 1px 25px rgb(0 0 0 / 10%);
+  animation: slide-from-left 1.5s;
+}
+
+.border-secondary{
+  border-color: $secondary-darker-color !important;
+}
+
+.labelOpacity{
+  background-color: rgba($secondary-darker-color,0.5);
+  color: black !important;
+}
+
+.navigation {
+  position: absolute;
+  left: 0;
+  padding: 0;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50px;
+  /* grid-gap: 20px; */
+  border-right: 1px solid rgb(128 128 128 / 6%);
+  box-shadow: 0 1px 25px rgb(0 0 0 / 10%);
+}
+
+.navigation li {
+  background: rgba($base-color, $alpha: 0.50);
+  width: 100%;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 300;
+  height: auto;
+  margin: 10px 0;
+  padding: 5px 0;
+  min-height: 35px;
+  color: $secondary-color;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 3px 3px 3px 0 rgba($secondary-darker-color, 20%),
+    5.137px 7.384px 150px 0 rgba($secondary-darker-color, 20%);
+}
+
+.navigation li::after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  height: 50%;
+  width: 2px;
+  background: $secondary-darker-color;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.navigation li:hover::after {
+  opacity: 1;
+}
+.navigation li:hover {
+  filter: brightness(1.25);
+  color: $secondary-darker-color;
+}
+.navigation li.active {
+  color: $secondary-color;
+  background: rgba($secondary-darker-color,0.75);
+  box-shadow: 3px 3px 3px 0 rgba($secondary-darker-color, 20%),
+    5.137px 7.384px 150px 0 rgba($secondary-darker-color, 20%);
+}
+.navigation li.active::after {
+  opacity: 1;
+  box-shadow: 3px 3px 3px 0 rgba($secondary-darker-color, 20%),
+    5.137px 7.384px 150px 0 rgba($secondary-darker-color, 20%);
+}
+
+.handler {
+  position: absolute;
+  left: 50px;
+  width: 450px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all 1.0s ease;
+}
+
+.slides .slide {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+
+.slides .slide *{
+  padding: 1px 5px;
+  margin: 5px auto;
+}
+
+.details {
+  width: 100%;
+  overflow-y: scroll !important;
+  transition: 0.5s ease !important;
+}
+
+.header {
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 25px;
+  margin: auto;
+  box-shadow: rgb(0 0 0 / 25%) 0px 1px 1px 0px, rgb(0 0 0 / 20%) 0px 2px 5px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%); */ /* border-radius: 20px; */
+}
+.header h2 {
+  position: relative;
+  margin-top: 5px;
+  width: 70%;
+  text-align: center;
+  font-size: 22px;
+  color: $secondary-darker-color;
+  letter-spacing: 1.2px;
+  text-shadow: 0 0px 2px rgb(0 0 0 / 100%);
+}
+
+.bg-1 {
+  background-image: url("/images/bg-1.png");
+  background-size: cover;
+  opacity: 1;
+}
+.bg-2 {
+  background-image: url("/images/bg-2.png");
+  background-size: cover;
+}
+.bg-3 {
+  background-image: url("/images/bg-3.png");
+  background-size: cover;
+}
+.bg-4 {
+  background-image: url("/images/bg-4.png");
+  background-size: cover;
+}
+
+.form-control {
+  margin-top: 5px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color:$secondary-color !important;
+  background-color: rgba($base-color, 0.0) !important;
+  border: none !important;
+}
+input[type="text"] {
+  border-radius: 5px;
+  color: $secondary-color !important;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px 30px;
+  box-shadow: 2px 2px 2px rgb(0 0 0);
+  background-color: rgba($base-color, 0.75) !important;
+  transition: box-shadow 0.4s ease-in-out;
+  border-color: $secondary-color;
+}
+input[type="text"]:hover {
+  box-shadow: 0 5px 10px $secondary-darker-color;
+}
+label {
+    border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1.25px;
+  color: white;
+  background-color: rgba($secondary-darker-color,0.75);
+}
+input[type="text"]:focus {
+  box-shadow: 0 5px 10px $secondary-darker-color;
+}
+
+*:active,
+*:focus {
+  outline: none;
+}
+
+.genders {
+  width: 95%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.genders h2 {
+  background: $secondary-darker-color;
+  border-radius: 5px;
+  padding: 5px 25px;
+  border-bottom: 4px solid transparent;
+  margin: 5px 20px;
+  transition: all 0.5s ease;
+  font-weight: 300;
+  color: $secondary-color;
+  letter-spacing: 1.2px;
+}
+.genders h2:hover {
+  transform: translateY(-6px);
+  border-color: $secondary-darker-color;
+  background: $secondary-color;
+  color: white;
+  filter: brightness(1.1);
+}
+.genders h2.active {
+  border-color: $secondary-darker-color;
+  color: black;
+  background: $secondary-color !important;
+}
+
+.faceFeatures {
+  height: 100%;
+  width: 95%;
+  margin: auto;
+  grid-gap: 10px;
+  justify-content: center;
+  overflow-y: auto;
+  padding-bottom: 80px !important;
+}
+
+.clothing {
+  width: 95%;
+  margin: auto;
+  height: 100%;
+  overflow-y: auto;
+  padding-bottom: 80px !important;
+}
+.clothing .item {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+input[type="date"] {
+  height: 35px;
+  margin: 0 auto;
+  font-size: 18px;
+  box-shadow: 2px 3px 5px rgb(0 0 0 / 15%);
+  font-weight: 100;
+  border: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: #ffffff;
+  outline: none;
+  font-size: 14px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s ease;
+  padding: 2px 17px;
+  color: rgb(162 162 162);
+}
+
+input[type="date"]:focus {
+  color: #1f1f1f;
+}
+
+.slider-handler {
+  background: rgba($base-color,0.0);
+}
+
+input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.number-input {
+  display: inline-flex;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
+  color: #555;
+  background: $secondary-color;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 7%);
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+.number-input,
+.number-input * {
+  box-sizing: border-box;
+}
+
+.number-input button {
+  outline: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.number-input:hover {
+  box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+}
+
+.number-input button:before,
+.number-input button:after {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  width: 1rem;
+  height: 2px;
+  background-color: #212121;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease;
+}
+.number-input button.plus:after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input button:hover {
+  background: $secondary-darker-color;
+}
+
+.number-input input[type="number"] {
+  font-family: sans-serif;
+  max-width: 5rem;
+  padding: 0.5rem;
+  border: solid $secondary-darker-color;
+  border-width: 0 2px;
+  text-align: center;
+}
+
+.dna {
+  height: 100%;
+  width: 95%;
+  margin: auto;
+  margin-top: 35px;
+  overflow-y: auto;
+  padding-bottom: 100px !important;
+}
+
+.blendData {
+  width: 100%;
+  padding: 0px 5px;
+  margin-top: 0px;
+  background: rgba($base-color,0.0);
+  flex-direction: column;
+}
+
+.beard {
+  width: 100%;
+  padding: 0 5px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px !important;
+}
+.beard ul {
+  display: flex;
+  grid-gap: 3px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+.beard ul li {
+  width: 25px;
+  height: 25px;
+  transition: all 0.4s ease;
+  margin: 1px;
+  border: 2px solid transparent;
+  padding: 2px !important;
+  margin: 0 !important;
+}
+.beard ul li:active {
+  background: white !important;
+}
+
+.makeupColors ul{
+  padding: 2px !important;
+  margin: 0 !important;
+}
+
+.beard .btn{
+  background-color: $secondary-color;
+  border: 1px solid $secondary-darker-color;
+}
+.beard ul li:hover {
+  box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+  border-color: white;
+}
+
+.hair {
+  width: 100%;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-direction: column;
+}
+.hair ul {
+  display: flex;
+  grid-gap: 3px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 2px !important;
+  margin: 0 !important;
+}
+.hair ul li {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  transition: all 0.4s ease;
+  margin: 1px;
+  border: 2px solid transparent;
+}
+.hair ul li:active {
+  background: white !important;
+}
+.hair ul li:hover {
+  box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+  border-color: white;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-size: 13px;
+  border: none;
+  width: 200px;
+  background: white;
+  border-radius: 5px;
+  padding: 10px 0 4px 0;
+  border-bottom: 4px solid $secondary-darker-color;
+  margin: 10px 0;
+  transition: all 0.5s ease;
+  font-weight: 300;
+  color: $base-color;
+  box-shadow: 0 1px 25px rgb(0 0 0 / 10%);
+  letter-spacing: 1.2px;
+}
+
+.btn:hover {
+  box-shadow: 0 5px 10px rgb(0 0 0 / 25%);
+  background: $secondary-darker-color !important;
+  color: white;
+}
+
+.createChar{
+  background-color: $secondary-color !important;
+  border: 1px solid $secondary-darker-color !important;
+}
+
+.headOverlays {
+  height: 100%;
+  width: 95%;
+  margin: auto;
+  margin-top: 35px;
+  overflow-y: auto;
+  padding-bottom: 100px !important;
+}
+
+.headOverlayPadding *{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.headOverlayContainer{
+  background-color: $base-color;
+  border-radius: 10px;
+}
+
+.headOverlays .slider-handler button {
+  font-size: 12px;
+  background-color: $secondary-color;
+  border: 1px solid $secondary-darker-color;
+}
+
+.help {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  color: $secondary-darker-color;
+  font-size: 13px;
+  font-weight: 300;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.finish {
+  width: 90%;
+  padding: 20px 0;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  flex-direction: column;
+}
+.finish img {
+  width: 225px;
+  height: 225px;
+}
+
+@keyframes slide-from-left {
+  0% {
+    transform: translateX(-600px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slide-from-right {
+  0% {
+    transform: translateX(600px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+* {
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(0 0 0 / 26%);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    0deg,
+    rgba($secondary-color, 1) 0%,
+    rgba($secondary-darker-color, 1) 100%
+  );
+  border-radius: 50px;
+}
+
+.unstyled{
+    background-color: rgba($base-color, $alpha: 0.75) !important;
+    box-shadow: 2px 2px 2px rgb(0 0 0) !important;
+    border-color: $secondary-color !important;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.unstyled::-webkit-inner-spin-button,
+.unstyled::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+  
+}

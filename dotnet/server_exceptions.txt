@@ -1,0 +1,1003 @@
+
+==================[8/6/2021 3:46:07 AM]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\MongoDB.Driver.Legacy.dll'. The system cannot find the file specified.
+File name: 'C:\Users\Dziugas\Desktop\ProjectY\dotnet\resources\ProjectY\ProjectYServer\bin\Debug\netcoreapp3.1\MongoDB.Driver.Legacy.dll'
+   at void System.Runtime.Loader.AssemblyLoadContext.LoadFromPath(IntPtr ptrNativeAssemblyLoadContext, string ilPath, string niPath, ObjectHandleOnStack retAssembly)
+
+
+=========================================================
+
+==================[8/6/2021 3:46:07 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+=========================================================
+
+==================[8/6/2021 3:46:07 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 3:46:07 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 3:46:07 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 3:46:07 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+=========================================================
+
+==================[8/6/2021 3:46:07 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 3:46:07 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+=========================================================
+
+==================[8/6/2021 3:46:07 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 3:46:07 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.Core.Operations.RetryableReadContext.InitializeAsync(CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 3:46:07 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.Core.Operations.RetryableReadContext.InitializeAsync(CancellationToken cancellationToken)
+   at async Task<RetryableReadContext> MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(IReadBinding binding, bool retryRequested, CancellationToken cancellationToken)
+=========================================================
+
+==================[8/6/2021 3:46:07 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.Core.Operations.RetryableReadContext.InitializeAsync(CancellationToken cancellationToken)
+   at async Task<RetryableReadContext> MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(IReadBinding binding, bool retryRequested, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 3:46:07 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.Core.Operations.RetryableReadContext.InitializeAsync(CancellationToken cancellationToken)
+   at async Task<RetryableReadContext> MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(IReadBinding binding, bool retryRequested, CancellationToken cancellationToken)
+   at async Task<TCommandResult> MongoDB.Driver.Core.Operations.ReadCommandOperation<TCommandResult>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 3:46:07 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.Core.Operations.RetryableReadContext.InitializeAsync(CancellationToken cancellationToken)
+   at async Task<RetryableReadContext> MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(IReadBinding binding, bool retryRequested, CancellationToken cancellationToken)
+   at async Task<TCommandResult> MongoDB.Driver.Core.Operations.ReadCommandOperation<TCommandResult>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 3:46:07 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.Core.O
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+=========================================================
+
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+=========================================================
+
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+=========================================================
+
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.Core.Operations.RetryableReadContext.InitializeAsync(CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.Core.Operations.RetryableReadContext.InitializeAsync(CancellationToken cancellationToken)
+   at async Task<RetryableReadContext> MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(IReadBinding binding, bool retryRequested, CancellationToken cancellationToken)
+=========================================================
+
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.Core.Operations.RetryableReadContext.InitializeAsync(CancellationToken cancellationToken)
+   at async Task<RetryableReadContext> MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(IReadBinding binding, bool retryRequested, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.Core.Operations.RetryableReadContext.InitializeAsync(CancellationToken cancellationToken)
+   at async Task<RetryableReadContext> MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(IReadBinding binding, bool retryRequested, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.Core.Operations.RetryableReadContext.InitializeAsync(CancellationToken cancellationToken)
+   at async Task<RetryableReadContext> MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(IReadBinding binding, bool retryRequested, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.Core.Operations.RetryableReadContext.InitializeAsync(CancellationToken cancellationToken)
+   at async Task<RetryableReadContext> MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(IReadBinding binding, bool retryRequested, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.ExecuteReadOperationAsync<TResult>(IClientSessionHandle session, IReadOperation<TResult> operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquireConnectionAsync(CancellationToken cancellationToken)
+   at async Task<IChannelHandle> MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.Core.Operations.RetryableReadContext.InitializeAsync(CancellationToken cancellationToken)
+   at async Task<RetryableReadContext> MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(IReadBinding binding, bool retryRequested, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.ExecuteReadOperationAsync<TResult>(IClientSessionHandle session, IReadOperation<TResult> operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.UsingImplicitSessionAsync<TResult>(Func<IClientSessionHandle, Task<TResult>> funcAsync, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:10:25 AM]==================
+System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.CallContext' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at T MongoDB.Driver.Core.Events.EventContext+AsyncLocal<T>.get_Value()
+   at long? MongoDB.Driver.Core.Events.EventContext.get_OperationId()
+   at void MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.StartCreating(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedInternalAsync(CancellationToken cancellationToken)
+   at async Task<PooledConnection> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+ConnectionCreator.CreateOpenedOrReuseAsync(CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool+AcquireConnectionHelper.EnteredPoolAsync(bool enteredPool, CancellationToken cancellationToken)
+   at async Task<IConnectionHandle> MongoDB.Driver.Core.ConnectionPools.ExclusiveC
+==================[8/6/2021 4:25:08 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+=========================================================
+
+==================[8/6/2021 4:25:08 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:25:08 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:25:08 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:25:08 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:25:08 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.ExecuteReadOperationAsync<TResult>(IClientSessionHandle session, IReadOperation<TResult> operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:25:08 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.ExecuteReadOperationAsync<TResult>(IClientSessionHandle session, IReadOperation<TResult> operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.UsingImplicitSessionAsync<TResult>(Func<IClientSessionHandle, Task<TResult>> funcAsync, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/6/2021 4:25:08 PM]==================
+Syst
+==================[8/11/2021 5:50:45 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+=========================================================
+
+==================[8/11/2021 5:50:45 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkUnmixedWriteOperationBase<TWriteRequest>+BatchHelper.CreateFinalResultOrThrow(IChannelHandle channel)
+   at async Task<BulkWriteOperationResult> MongoDB.Driver.Core.Operations.BulkUnmixedWriteOperationBase<TWriteRequest>.ExecuteBatchesAsync(RetryableWriteContext context, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:50:45 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+=========================================================
+
+==================[8/11/2021 5:50:45 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkMixedWriteOperation+BatchHelper.GetFinalResultOrThrow(ConnectionId connectionId)
+   at async Task<BulkWriteOperationResult> MongoDB.Driver.Core.Operations.BulkMixedWriteOperation.ExecuteAsync(IWriteBinding binding, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:50:45 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkMixedWriteOperation+BatchHelper.GetFinalResultOrThrow(ConnectionId connectionId)
+   at async Task<BulkWriteOperationResult> MongoDB.Driver.Core.Operations.BulkMixedWriteOperation.ExecuteAsync(IWriteBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteWriteOperationAsync<TResult>(IWriteBinding binding, IWriteOperation<TResult> operation, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:50:45 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkMixedWriteOperation+BatchHelper.GetFinalResultOrThrow(ConnectionId connectionId)
+   at async Task<BulkWriteOperationResult> MongoDB.Driver.Core.Operations.BulkMixedWriteOperation.ExecuteAsync(IWriteBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteWriteOperationAsync<TResult>(IWriteBinding binding, IWriteOperation<TResult> operation, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.ExecuteWriteOperationAsync<TResult>(IClientSessionHandle session, IWriteOperation<TResult> operation, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:50:45 PM]==================
+MongoDB.Driver.MongoBulkWriteException`1[ProjectYServer.Accounts.AccountData]: A bulk write operation resulted in one or more errors. WriteErrors: [ { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" } ].
+   at async Task<BulkWriteResult<TDocument>> MongoDB.Driver.MongoCollectionImpl<TDocument>.BulkWriteAsync(IClientSessionHandle session, IEnumerable<WriteModel<TDocument>> requests, BulkWriteOptions options, CancellationToken cancellationToken)
+=========================================================
+
+==================[8/11/2021 5:50:45 PM]==================
+MongoDB.Driver.MongoBulkWriteException`1[ProjectYServer.Accounts.AccountData]: A bulk write operation resulted in one or more errors. WriteErrors: [ { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" } ].
+   at async Task<BulkWriteResult<TDocument>> MongoDB.Driver.MongoCollectionImpl<TDocument>.BulkWriteAsync(IClientSessionHandle session, IEnumerable<WriteModel<TDocument>> requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:50:45 PM]==================
+MongoDB.Driver.MongoBulkWriteException`1[ProjectYServer.Accounts.AccountData]: A bulk write operation resulted in one or more errors. WriteErrors: [ { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" } ].
+   at async Task<BulkWriteResult<TDocument>> MongoDB.Driver.MongoCollectionImpl<TDocument>.BulkWriteAsync(IClientSessionHandle session, IEnumerable<WriteModel<TDocument>> requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.UsingImplicitSessionAsync<TResult>(Func<IClientSessionHandle, Task<TResult>> funcAsync, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:50:45 PM]==================
+MongoDB.Driver.MongoWriteException: A write operation resulted in an error. WriteError: { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" }.
+ ---> MongoDB.Driver.MongoBulkWriteException`1[ProjectYServer.Accounts.AccountData]: A bulk write operation resulted in one or more errors. WriteErrors: [ { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" } ].
+   at async Task<BulkWriteResult<TDocument>> MongoDB.Driver.MongoCollectionImpl<TDocument>.BulkWriteAsync(IClientSessionHandle session, IEnumerable<WriteModel<TDocument>> requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.UsingImplicitSessionAsync<TResult>(Func<IClientSessionHandle, Task<TResult>> funcAsync, CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.MongoCollectionBase<TDocument>.InsertOneAsync(TDocument document, InsertOneOptions options, Func<IEnumerable<WriteModel<TDocument>>, BulkWriteOptions, Task> bulkWriteAsync)
+   --- End of inner exception stack trace ---
+   at async Task MongoDB.Driver.MongoCollectionBase<TDocument>.InsertOneAsync(TDocument document, InsertOneOptions options, Func<IEnumerable<WriteModel<TDocument>>, BulkWriteOptions, Task> bulkWriteAsync)
+=========================================================
+
+==================[8/11/2021 5:50:45 PM]==================
+MongoDB.Driver.MongoWriteException: A write operation resulted in an error. WriteError: { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" }.
+ ---> MongoDB.Driver.MongoBulkWriteException`1[ProjectYServer.Accounts.AccountData]: A bulk write operation resulted in one or more errors. WriteErrors: [ { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" } ].
+   at async Task<BulkWriteResult<TDocument>> MongoDB.Driver.MongoCollectionImpl<TDocument>.BulkWriteAsync(IClientSessionHandle session, IEnumerable<WriteModel<TDocument>> requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.UsingImplicitSessionAsync<TResult>(Func<IClientSessionHandle, Task<TResult>> funcAsync, CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.MongoCollectionBase<TDocument>.InsertOneAsync(TDocument document, InsertOneOptions options, Func<IEnumerable<WriteModel<TDocument>>, BulkWriteOptions, Task> bulkWriteAsync)
+   --- End of inner exception stack trace ---
+   at async Task MongoDB.Driver.MongoCollectionBase<TDocument>.InsertOneAsync(TDocument document, InsertOneOptions options, Func<IEnumerable<WriteModel<TDocument>>, BulkWriteOptions, Task> bulkWriteAsync)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:50:48 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+=========================================================
+
+==================[8/11/2021 5:50:48 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkUnmixedWriteOperationBase<TWriteRequest>+BatchHelper.CreateFinalResultOrThrow(IChannelHandle channel)
+   at async Task<BulkWriteOperationResult> MongoDB.Driver.Core.Operations.BulkUnmixedWriteOperationBase<TWriteRequest>.ExecuteBatchesAsync(RetryableWriteContext context, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:50:48 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+=========================================================
+
+==================[8/11/2021 5:50:49 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkMixedWriteOperation+BatchHelper.GetFinalResultOrThrow(ConnectionId connectionId)
+   at async Task<BulkWriteOperationResult> MongoDB.Driver.Core.Operations.BulkMixedWriteOperation.ExecuteAsync(IWriteBinding binding, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:50:49 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkMixedWriteOperation+BatchHelper.GetFinalResultOrThrow(ConnectionId connectionId)
+   at async Task<BulkWriteOperationResult> MongoDB.Driver.Core.Operations.BulkMixedWriteOperation.ExecuteAsync(IWriteBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteWriteOperationAsync<TResult>(IWriteBinding binding, IWriteOperation<TResult> operation, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:50:49 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkMixedWriteOperation+BatchHelper.GetFinalResultOrThrow(ConnectionId connectionId)
+   at async Task<BulkWriteOperationResult> MongoDB.Driver.Core.Operations.BulkMixedWriteOperation.ExecuteAsync(IWriteBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteWriteOperationAsync<TResult>(IWriteBinding binding, IWriteOperation<TResult> operation, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.ExecuteWriteOperationAsync<TResult>(IClientSessionHandle session, IWriteOperation<TResult> operation, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:50:49 PM]==================
+MongoDB.Driver.MongoBulkWriteException`1[ProjectYServer.Accounts.AccountData]: A bulk write operation resulted in one or more errors. WriteErrors: [ { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" } ].
+   at async Task<BulkWriteResult<TDocument>> MongoDB.Driver.MongoCollectionImpl<TDocument>.BulkWriteAsync(IClientSessionHandle session, IEnumerable<WriteModel<TDocument>> requests, BulkWriteOptions options, CancellationToken cancellationToken)
+=========================================================
+
+==================[8/11/2021 5:50:49 PM]==================
+MongoDB.Driver.MongoBulkWriteException`1[ProjectYServer.Accounts.AccountData]: A bulk write operation resulted in one or more errors. WriteErrors: [ { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" } ].
+   at async Task<BulkWriteResult<TDocument>> MongoDB.Driver.MongoCollectionImpl<TDocument>.BulkWriteAsync(IClientSessionHandle session, IEnumerable<WriteModel<TDocument>> requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:50:49 PM]==================
+MongoDB.Driver.MongoBulkWriteException`1[ProjectYServer.Accounts.AccountData]: A bulk write operation resulted in one or more errors. WriteErrors: [ { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" } ].
+   at async Task<BulkWriteResult<TDocument>> MongoDB.Driver.MongoCollectionImpl<TDocument>.BulkWriteAsync(IClientSessionHandle session, IEnumerable<WriteModel<TDocument>> requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.UsingImplicitSessionAsync<TResult>(Func<IClientSessionHandle, Task<TResult>> funcAsync, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:50:49 PM]==================
+MongoDB.Driver.MongoWriteException: A write operation resulted in an error. WriteError: { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" }.
+ ---> MongoDB.Driver.MongoBulkWriteException`1[ProjectYServer.Accounts.AccountData]: A bulk write operation resulted in one or more errors. WriteErrors: [ { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" } ].
+   at async Task<BulkWriteResult<TDocument>> MongoDB.Driver.MongoCollectionImpl<TDocument>.BulkWriteAsync(IClientSessionHandle session, IEnumerable<WriteModel<TDocument>> requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.UsingImplicitSessionAsync<TResult>(Func<IClientSessionHandle, Task<TResult>> funcAsync, CancellationToken cancellationToken)
+   at async Task MongoDB.Driver.MongoCollectionBase<TDocument>.InsertOneAsync(TDocument document, InsertOneOptions options, Func<IEnumerable<WriteModel<TDocument>>, BulkWriteOptions, Task> bulkWriteAsync)
+   --- End of inner exception stack trace ---
+   at async Task MongoDB.Driver.MongoCollectionBase<TDocument>.InsertOneAsync(TDocument document, InsertOneOptions options, Func<IEnumerable<WriteModel<TDocument>>, BulkWriteOptions, Task> bulkWriteAsync)
+=========================================================
+
+==================[8/11/2021 5:50:49 PM]==================
+MongoDB.Driver.MongoWriteException: A write operation r
+==================[8/11/2021 5:58:16 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+=========================================================
+
+==================[8/11/2021 5:58:16 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkUnmixedWriteOperationBase<TWriteRequest>+BatchHelper.CreateFinalResultOrThrow(IChannelHandle channel)
+   at async Task<BulkWriteOperationResult> MongoDB.Driver.Core.Operations.BulkUnmixedWriteOperationBase<TWriteRequest>.ExecuteBatchesAsync(RetryableWriteContext context, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:58:16 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+=========================================================
+
+==================[8/11/2021 5:58:16 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkMixedWriteOperation+BatchHelper.GetFinalResultOrThrow(ConnectionId connectionId)
+   at async Task<BulkWriteOperationResult> MongoDB.Driver.Core.Operations.BulkMixedWriteOperation.ExecuteAsync(IWriteBinding binding, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:58:16 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkMixedWriteOperation+BatchHelper.GetFinalResultOrThrow(ConnectionId connectionId)
+   at async Task<BulkWriteOperationResult> MongoDB.Driver.Core.Operations.BulkMixedWriteOperation.ExecuteAsync(IWriteBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteWriteOperationAsync<TResult>(IWriteBinding binding, IWriteOperation<TResult> operation, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:58:16 PM]==================
+MongoDB.Driver.Core.Operations.MongoBulkWriteOperationException: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkWriteBatchResultCombiner.CreateResultOrThrowIfHasErrors(ConnectionId connectionId, IReadOnlyList<WriteRequest> remainingRequests)
+   at BulkWriteOperationResult MongoDB.Driver.Core.Operations.BulkMixedWriteOperation+BatchHelper.GetFinalResultOrThrow(ConnectionId connectionId)
+   at async Task<BulkWriteOperationResult> MongoDB.Driver.Core.Operations.BulkMixedWriteOperation.ExecuteAsync(IWriteBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteWriteOperationAsync<TResult>(IWriteBinding binding, IWriteOperation<TResult> operation, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.ExecuteWriteOperationAsync<TResult>(IClientSessionHandle session, IWriteOperation<TResult> operation, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:58:16 PM]==================
+MongoDB.Driver.MongoBulkWriteException`1[ProjectYServer.Accounts.AccountData]: A bulk write operation resulted in one or more errors. WriteErrors: [ { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" } ].
+   at async Task<BulkWriteResult<TDocument>> MongoDB.Driver.MongoCollectionImpl<TDocument>.BulkWriteAsync(IClientSessionHandle session, IEnumerable<WriteModel<TDocument>> requests, BulkWriteOptions options, CancellationToken cancellationToken)
+=========================================================
+
+==================[8/11/2021 5:58:16 PM]==================
+MongoDB.Driver.MongoBulkWriteException`1[ProjectYServer.Accounts.AccountData]: A bulk write operation resulted in one or more errors. WriteErrors: [ { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" } ].
+   at async Task<BulkWriteResult<TDocument>> MongoDB.Driver.MongoCollectionImpl<TDocument>.BulkWriteAsync(IClientSessionHandle session, IEnumerable<WriteModel<TDocument>> requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:58:16 PM]==================
+MongoDB.Driver.MongoBulkWriteException`1[ProjectYServer.Accounts.AccountData]: A bulk write operation resulted in one or more errors. WriteErrors: [ { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" } ].
+   at async Task<BulkWriteResult<TDocument>> MongoDB.Driver.MongoCollectionImpl<TDocument>.BulkWriteAsync(IClientSessionHandle session, IEnumerable<WriteModel<TDocument>> requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.UsingImplicitSessionAsync<TResult>(Func<IClientSessionHandle, Task<TResult>> funcAsync, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/11/2021 5:58:16 PM]==================
+MongoDB.Driver.MongoWriteException: A write operation resulted in an error. WriteError: { Category : "DuplicateKey", Code : 11000, Message : "E11000 duplicate key error collection: projecty.accounts index: _id_ dup key: { _id: null }" }.
+ ---> MongoDB.Driver.MongoBulkWriteException`1[ProjectYServer.Accounts.AccountData]: A bulk write oper
+==================[8/12/2021 9:54:37 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+=========================================================
+
+==================[8/12/2021 9:54:37 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 9:54:37 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 9:54:37 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 9:54:37 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 9:54:37 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.ExecuteReadOperationAsync<TResult>(IClientSessionHandle session, IReadOperation<TResult> operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 9:54:37 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.ExecuteReadOperationAsync<TResult>(IClientSessionHandle session, IReadOperation<TResult> operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.UsingImplicitSessionAsync<TResult>(Func<IClientSessionHandle, Task<TResult>> funcAsync, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 9:54:37 PM]================
+==================[8/12/2021 9:55:33 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+=========================================================
+
+==================[8/12/2021 9:55:33 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 9:55:33 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 9:55:33 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 9:55:33 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 9:55:33 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.ExecuteReadOperationAsync<TResult>(IClientSessionHandle session, IReadOperation<TResult> operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 9:55:33 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Accounts.AccountData.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.ExecuteReadOperationAsync<TResult>(IClientSessionHandle session, IReadOperation<TResult> operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.UsingImplicitSessionAsync<TResult>(Func<IClientSessionHandle, Task<TResult>> funcAsync, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 9:55:33 PM]================
+==================[8/12/2021 10:12:46 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Character.TCD.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+=========================================================
+
+==================[8/12/2021 10:12:46 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Character.TCD.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 10:12:46 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Character.TCD.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 10:12:46 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Character.TCD.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 10:12:46 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Character.TCD.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 10:12:46 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Character.TCD.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.ExecuteReadOperationAsync<TResult>(IClientSessionHandle session, IReadOperation<TResult> operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 10:12:46 PM]==================
+System.FormatException: Element '_id' does not match any field or property of class ProjectYServer.Character.TCD.
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.DeserializeClass(BsonDeserializationContext context)
+   at TClass MongoDB.Bson.Serialization.BsonClassMapSerializer<TClass>.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at TValue MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize<TValue>(IBsonSerializer<TValue> serializer, BsonDeserializationContext context)
+   at List<TDocument> MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch<TDocument>(RawBsonArray batch, IBsonSerializer<TDocument> documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at CursorBatch<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at AsyncCursor<TDocument> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.CreateCursor(IChannelSourceHandle channelSource, IChannelHandle channel, BsonDocument commandResult)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindCommandOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at async Task<IAsyncCursor<TDocument>> MongoDB.Driver.Core.Operations.FindOperation<TDocument>.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync<TResult>(IReadBinding binding, IReadOperation<TResult> operation, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.ExecuteReadOperationAsync<TResult>(IClientSessionHandle session, IReadOperation<TResult> operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at async Task<TResult> MongoDB.Driver.MongoCollectionImpl<TDocument>.UsingImplicitSessionAsync<TResult>(Func<IClientSessionHandle, Task<TResult>> funcAsync, CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[8/12/2021 10:12:46 PM]==================
+System.FormatException: Element '_id'

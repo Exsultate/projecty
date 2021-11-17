@@ -1,0 +1,11 @@
+C:\Users\Dziugas\Desktop\ProjectY\client_packages\cs_packages\ProjectYClient\obj\Debug\netcoreapp3.1\ProjectYClient.csprojAssemblyReference.cache
+C:\Users\Dziugas\Desktop\ProjectY\client_packages\cs_packages\ProjectYClient\obj\Debug\netcoreapp3.1\ProjectYClient.AssemblyInfoInputs.cache
+C:\Users\Dziugas\Desktop\ProjectY\client_packages\cs_packages\ProjectYClient\obj\Debug\netcoreapp3.1\ProjectYClient.AssemblyInfo.cs
+C:\Users\Dziugas\Desktop\ProjectY\client_packages\cs_packages\ProjectYClient\obj\Debug\netcoreapp3.1\ProjectYClient.csproj.CoreCompileInputs.cache
+C:\Users\Dziugas\Desktop\ProjectY\client_packages\cs_packages\ProjectYClient\bin\Debug\netcoreapp3.1\ProjectYClient.deps.json
+C:\Users\Dziugas\Desktop\ProjectY\client_packages\cs_packages\ProjectYClient\bin\Debug\netcoreapp3.1\ProjectYClient.dll
+C:\Users\Dziugas\Desktop\ProjectY\client_packages\cs_packages\ProjectYClient\bin\Debug\netcoreapp3.1\ProjectYClient.pdb
+C:\Users\Dziugas\Desktop\ProjectY\client_packages\cs_packages\ProjectYClient\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Dziugas\Desktop\ProjectY\client_packages\cs_packages\ProjectYClient\obj\Debug\netcoreapp3.1\ProjectYClient.csproj.CopyComplete
+C:\Users\Dziugas\Desktop\ProjectY\client_packages\cs_packages\ProjectYClient\obj\Debug\netcoreapp3.1\ProjectYClient.dll
+C:\Users\Dziugas\Desktop\ProjectY\client_packages\cs_packages\ProjectYClient\obj\Debug\netcoreapp3.1\ProjectYClient.pdb
